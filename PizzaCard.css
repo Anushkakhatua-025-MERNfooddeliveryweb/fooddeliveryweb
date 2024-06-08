@@ -1,0 +1,57 @@
+/* src/components/PizzaCard.css */
+
+.pizza-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    transition: transform 0.2s;
+    width: 300px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.pizza-card:hover {
+    transform: scale(1.05);
+}
+
+.pizza-image {
+    width: 5%;
+    height: 70%; /* Adjust as needed */
+    border-radius: 10px;
+    object-fit: scale-down;
+}
+
+.pizza-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%; /* Adjust as needed */
+}
+
+.pizza-name {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.pizza-price {
+    font-size: 1rem;
+    color: #888;
+}
+
+.pizza-link {
+    background: #ff5733;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.pizza-link:hover {
+    background: #c4451d;
+}

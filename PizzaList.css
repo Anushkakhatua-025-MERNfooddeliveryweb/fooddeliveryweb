@@ -1,0 +1,8 @@
+/* src/components/PizzaList.css */
+.pizza-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    background: #f7f7f7;
+}

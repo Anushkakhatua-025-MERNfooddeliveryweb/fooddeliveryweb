@@ -1,0 +1,22 @@
+/* src/components/elements/Button.css */
+.btn {
+    background: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #c4451d;
+}
+
+.btn-large {
+    padding: 1rem 2rem;
+}
+
+.btn-small {
+    padding: 0.25rem 0.5rem;
+}
